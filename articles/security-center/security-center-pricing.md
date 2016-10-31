@@ -35,7 +35,7 @@ For more information, see the Security Center [pricing page](https://azure.micro
 
 A 90 day free trial is available for the Standard tier. To get the free trial of the Standard tier, select the **Policy** tile on the **Security Center** blade. Select the subscription that you want to upgrade to Standard. On the **Security policy** blade, select **Pricing tier**. On the **Choose your pricing tier** blade, select **Standard – Free Trial**.
 
-![Free trial][1]
+[![Free trial][1]][1]
 
 At the end of 90 days, should you choose to continue using the service, we will automatically start charging for usage.
 
@@ -43,7 +43,7 @@ At the end of 90 days, should you choose to continue using the service, we will 
 
 Upgrade to the Standard tier to add advanced threat detection. To get the Standard tier, select the **Policy** tile on the **Security Center** blade. Select the subscription that you want to upgrade to Standard. On the **Security policy** blade, select **Pricing tier**. On the **Choose your pricing tier** blade, select **Standard**.
 
-![Standard tier][2]
+[![Standard tier][2]][2]
 
 ## Why upgrade to Standard?
 
@@ -59,7 +59,7 @@ Security analytics that come with the Standard tier are:
 
 In the **Security alerts** blade below, Security Center has detected a security **incident**. A security incident is an aggregation of all alerts for a resource that align with kill chain patterns. Selecting the security incident reveals more details about the incident and lists the related alerts. Selecting an alert provides more information about that occurrence.
 
-![Security incident][3]
+[![Security incident][3]][3]
 
 The **Network communication** alert below provides details about the alert. Details include its full description, its severity, its current state (which in this case is dismissed, meaning the user took action to dismiss it), the attacked resource, and remediation steps. There is also a list of links to Microsoft Threat Intelligence reports. These reports can be used for security remediation and defensive purposes.
 
@@ -80,6 +80,6 @@ To validate that data collection is enabled, select the **Policy** tile. The **S
 
 <!--Image references-->
 [1]: ./media/security-center-pricing/free-trial.png
-[2]: ./media/security-center-pricing/standard.png
+[2]: ./media/security-center-pricing/standard.png 
 [3]: ./media/security-center-pricing/incident.png
-[4]: ./media/security-center-pricing/network-alert.png
+[4]: ./media/security-center-pricing/network-alert.png (TODO: remove subscription ID)
